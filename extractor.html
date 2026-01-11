@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Alt Text Extractor</title>
+  <style>
+    body { font-family: Arial, sans-serif; width: 300px; padding: 10px; }
+    #result { white-space: pre-wrap; max-height: 300px; overflow-y: auto; background: #f5f5f5; padding: 8px; border-radius: 4px; font-family: monospace; font-size: 13px; }
+    button { width: 100%; padding: 10px; font-size: 16px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h3>Extract Image Alt Texts</h3>
+  <button id="extractBtn">Extract from Current Page</button>
+  <div id="result">Click the button to extract alt texts from images on this page.</div>
+  <button id="copyAltTextBtn" style="margin-top: 8px;">Copy All Alt Texts</button>
+
+  <script src="./e2.js"></script>
+</body>
+</html>
